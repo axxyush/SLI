@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: linear-gradient(to right, #c2c2db, #c7a3c7);
+}
+
+/* *************************************************** */
+.banner-img {
+  animation: App-logo-spin infinite 20s linear;
+}
+.bg-purple {
+  background-color: #7f27ff;
+}
+
+/* *************************************************** */
+.mission {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.mission-content {
+  padding: 50px;
+  width: 70%;
+}
+.mission-fact {
+  padding: 50px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  background-color: #ba8bff;
+}
+/* *************************************************** */
+
+/* *************************************************** */
+
+/* *************************************************** */
+
+/* *************************************************** */
+
+/* *************************************************** */
+
+/* *************************************************** */
+
+/* *************************************************** */
+
+@media (max-width: 700px) {
+  .mission-content {
+    width: fit-content;
+  }
+  .mission-fact {
+    width: fit-content;
+  }
+}
