@@ -67,13 +67,13 @@ body {
   width: 70%;
 }
 .mission-fact {
-  padding: 50px;
+  padding: 30px;
   width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-self: center;
-  text-align: center;
+  /* text-align: center; */
   background-color: #ba8bff;
 }
 /* *************************************************** */

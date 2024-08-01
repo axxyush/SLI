@@ -11,20 +11,19 @@ function Banner() {
               src={bannerImg}
               className="banner-img d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
-              width={700}
-              height={500}
+              width={300}
+              height={200}
               loading="lazy"
             />
           </div>
           <div className="col-lg-6">
             <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              Better care through speech.
+              Deep speech, better care.
             </h1>
             <p className="lead">
-              Speech analytics provide objective, repeatable metrics—unlocking a
-              new paradigm of patient care. Achieve better care and identify
-              health problems before symptoms appear through remote, frequent
-              speech assessments.
+              Deep vocal analysis offer objective and reliable biomarkers for
+              health conditions and care. Our technology enables remote and
+              accessible care by tracking early symptoms.
             </p>
           </div>
         </div>

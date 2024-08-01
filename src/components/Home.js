@@ -10,14 +10,22 @@ function Home() {
         <div className="mission-content bg-light">
           <h2>Our Mission</h2>
           <p>
-            To be the global leader in brain health monitoring by providing
-            clinical decision makers with non-invasive and actionable insights
-            regarding the neurological health of their patients.
+            To be the global leader in comprehensive health monitoring by
+            providing clinical decision-makers with non-invasive and actionable
+            insights into the overall health of their patients, including
+            neurological, developmental, and mental health aspects.
           </p>
         </div>
         <div className="mission-fact ">
-          <h2>55,000,000</h2>
-          <p>People currently living with a neurological disease</p>
+          <p>
+            <b>A couple of examples are:</b>
+          </p>
+          <ul>
+            <li>Alzheimer's Disease</li>
+            <li>Parkinson's</li>
+            <li>Autism and Developmental Delay</li>
+            <li>Stress and Anxiety</li>
+          </ul>
         </div>
       </div>
       {/* *************************************** */}
@@ -25,16 +33,17 @@ function Home() {
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-lg-6">
             <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              Our Purpose
+              Our Product - Converting Speech into Biomarkers
             </h1>
             <p className="lead">
-              To build the world’s most advanced model driven, transparent
-              speech analytics platform. Neurological diseases and injuries are
-              among the most debilitating and costly health challenges facing
-              the world today. We strive to improve patient outcomes by
-              unlocking the valuable brain health data available in the speech
-              signal with scientifically sound and technically viable speech
-              analytics technology.
+              Our innovative product transforms speech data into valuable
+              biomarkers, offering a breakthrough in health monitoring and
+              diagnostics. By analyzing speech patterns, we can convert vocal
+              data into precise biomarkers, providing actionable insights into
+              various health conditions. This technology enables clinical
+              decision-makers to assess a patient's health status with accuracy,
+              making it an essential tool for comprehensive and non-invasive
+              healthcare.
             </p>
           </div>
           <div className="col-10 col-sm-8 col-lg-6">
@@ -68,13 +77,14 @@ function Home() {
               Our Solution
             </h1>
             <p className="lead">
-              Our suite of easy-to-use, mobile first solutions extract
-              clinically relevant measures by tapping into various nervous
-              system functions. We make speech elicitation and clinical outcome
-              measures simple. Disease, location, language, device agnostic
-              Real-time, online and easily extensible Deployed in 8 languages
-              and on 4 continents Clinically validated across multiple disease
-              states
+              Our solution offers tow ways to collaboration: <br /> 1) By
+              licensing our API/SDK solutions to access neurological,
+              developmental and mental health vocal biomarkers <br /> 2) By
+              partnering with us to develop innovative health monitoring
+              solutions. These partnerships enable companies to integrate
+              advanced vocal biomarker technology into their offerings,
+              enhancing their ability to monitor and improve health outcomes
+              effectively.
             </p>
           </div>
         </div>

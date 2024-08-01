@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-  let location = useLocation();
+  // let location = useLocation();
   const [sticky, setSticky] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -27,7 +27,7 @@ function Navbar() {
       >
         <div className="container-fluid">
           <Link className="navbar-brand fw-bold" to="/">
-            SLI Tech
+            Auspex Medix
           </Link>
           <button
             className="navbar-toggler"
@@ -40,7 +40,7 @@ function Navbar() {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
@@ -82,7 +82,7 @@ function Navbar() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </nav>
     </>
