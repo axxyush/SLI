@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
+import websitevideo from "../images/websitevideo.mp4";
 
 function Home() {
   return (
@@ -61,12 +62,12 @@ function Home() {
       {/* *************************************** */}
       <div className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div className="col-10 col-sm-8 col-lg-6">
+          <div className="col-10 col-sm-8 col-lg-6 ">
             <iframe
               className="d-block mx-lg-auto img-fluid"
-              style={{ borderRadius: "40px", height: "250px", width: "700px" }}
-              src="https://www.youtube.com/embed/KgDhaaPSHcI"
-              title="YouTube video player"
+              style={{ borderRadius: "20px", height: "250px", width: "700px" }}
+              src={websitevideo}
+              title="Website Video"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
