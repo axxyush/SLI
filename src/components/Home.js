@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "./Banner";
-import websitevideo from "../images/websitevideo.mp4";
+// import websitevideo from "../images/websitevideo.mp4";
+import websitevideo from "../images/AuspexMedixVideo.MP4";
 
 function Home() {
   return (
